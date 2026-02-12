@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "511748561247",
+    "firebase_url": "https://atibsx-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "atibsx",
+    "storage_bucket": "atibsx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511748561247:android:d3a457183e4b7ec68abeea",
+        "android_client_info": {
+          "package_name": "al.anshary.atibs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-SVd6fX8L1LxMV25pyVDpPL5jNsxYI0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
