@@ -15,13 +15,13 @@
     <allow-intent href="geo:*" />
     <platform name="android">
         <preference name="android-minSDKVersion" value="28" />
-        <preference name="android-targetSDKVersion" value="33" />
-        <preference name="android-compileSDKVersion" value="33" />
+        <preference name="android-targetSDKVersion" value="35" />
+        <preference name="android-compileSDKVersion" value="35" />
         <preference name="StatusBarOverlaysWebView" value="false" />
         <preference name="StatusBarBackgroundColor" value="#ffffff" />
         <preference name="NavigationBarBackgroundColor" value="#ffffff" />
         <preference name="AndroidWindowSplashScreenAnimationDuration" value="0" />
-        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/icon.png" />
+        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/atibs.logo.far.png" />
         <resource-file src="res/google-services.json" target="app/google-services.json" />
         <resource-file src="res/icons" target="res/icons" />
         <resource-file src="res/icon.png" target="app/icon.png" />
