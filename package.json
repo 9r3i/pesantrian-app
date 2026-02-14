@@ -1,7 +1,7 @@
 {
   "name": "al.anshary.atibs",
   "displayName": "ATIBS",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Aisyah Tahfidz Islamic Boarding School",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   "devDependencies": {
     "cordova-android": "^14.0.1",
     "cordova-plugin-battery-status": "^2.0.3",
-    "cordova-plugin-camera": "^7.0.0",
+    "cordova-plugin-camera": "^8.0.0",
     "cordova-plugin-device": "^2.1.0",
     "cordova-plugin-dialogs": "^2.0.2",
     "cordova-plugin-file": "^8.0.1",
@@ -36,7 +36,6 @@
   "cordova": {
     "plugins": {
       "cordova-plugin-battery-status": {},
-      "cordova-plugin-camera": {},
       "cordova-plugin-device": {},
       "cordova-plugin-dialogs": {},
       "cordova-plugin-file": {},
@@ -54,6 +53,9 @@
         "ANDROIDX_APPCOMPAT_VERSION": "1.6.1",
         "ANDROID_PLAY_APP_UPDATE_VERSION": "2.1.0",
         "ANDROID_MATERIAL_VERSION": "1.8.0"
+      },
+      "cordova-plugin-camera": {
+        "ANDROIDX_CORE_VERSION": "1.6.+"
       }
     },
     "platforms": [
