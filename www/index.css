@@ -1,3 +1,112 @@
+/* reset */
+*,*:before,*:after{
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  box-sizing:border-box;
+  font-family:'Segoe UI Lite',system-ui,sans-serif,consolas,monospace;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -o-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  outline:none;
+  -webkit-text-size-adjust:none;
+  text-size-adjust:none;
+}
+input,textarea{
+  -webkit-user-select:initial;
+  -moz-user-select:initial;
+  -o-user-select:initial;
+  user-select:initial;
+}
+input:focus,
+textarea:focus,
+select:focus{
+  -webkit-outline:none;
+  -moz-outline:none;
+  -o-outline:none;
+  outline:none;
+}
+
+/* html */
+html{
+  --size-factor:(0.00188323 * 100vw);
+  font-size:calc(20 * var(--size-factor));
+  margin:0rem;
+  padding:0rem;
+}
+body{
+  margin:0rem;
+  padding:0rem;
+  background-color:#fff;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  background-position:center;
+  background-image:url();
+  display:block;
+  position:relative;
+  transition:all 0.9s ease 0.1s;
+  font-size:1rem;
+  color:#333;
+  overflow-x:hidden;
+  overflow-y:auto;
+}
+a{
+  text-decoration:none;
+  color:#b73;
+  outline:none;
+}
+a:hover{color:#951;}
+pre{
+  font-family:consolas,monospace;
+  font-size:0.8rem;
+  white-space:pre-wrap;
+  background:linear-gradient(#fff 0%,#fed 100%);
+  word-break:break-all;
+  padding:0.5rem;
+  border:0.01rem solid #999;
+  border-left:0.5rem solid #d95;
+}
+video,audio{max-width:100%;}
+progress{
+  font-size:1.2rem;
+  transition:all 0.3s ease 0s;
+}
+progress[value]{
+  --color:#37b; /* the progress color */
+  --background: lightgrey; /* the background color */
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  border:none;
+  width:12.5rem;
+  height:0.5rem;
+  margin:0rem 0.625rem;
+  border-radius:10em;
+  background:var(--background);
+}
+progress[value]::-webkit-progress-bar{
+  border-radius:10em;
+  background:var(--background);
+}
+progress[value]::-webkit-progress-value{
+  border-radius:10em;
+  background:var(--color);
+}
+progress[value]::-moz-progress-bar{
+  border-radius:10em;
+  background:var(--color);
+}
+iframe{
+  width:100%;
+  height:auto;
+  border:0px none;
+  background-color:#fff;
+}
+
+/* splash */
 body{
   margin:0px;
   padding:0px;
@@ -31,7 +140,7 @@ body{
   border:0px none;
   max-width:128px;
   max-height:128px;
-  animation:scaling 10s infinite 0s;
+  animation:scaling 0.5s infinite 0s;
 }
 @keyframes fading{
   0%{opacity:1;}
